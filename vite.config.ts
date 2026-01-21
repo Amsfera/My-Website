@@ -5,11 +5,13 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
   server: {
-    host: true, // ✅ correct way
+    host: true,
     port: 8080,
-    allowedHosts: [
-      "simple-showcase.onrender.com"
-    ]
+    allowedHosts: [".onrender.com"],
+  },
+  preview: {
+    host: true,
+    allowedHosts: [".onrender.com"],
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
