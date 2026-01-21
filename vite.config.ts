@@ -7,11 +7,19 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: true,
     port: 8080,
-    allowedHosts: [".onrender.com"],
+    allowedHosts: [
+      ".onrender.com",
+      "amsfera.com",
+      "www.amsfera.com",
+    ],
   },
   preview: {
     host: true,
-    allowedHosts: [".onrender.com"],
+    allowedHosts: [
+      ".onrender.com",
+      "amsfera.com",
+      "www.amsfera.com",
+    ],
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
