@@ -14,3 +14,11 @@ This repository contains the source code for AMSfera's official website.
 ## How to Run
 1. Clone the repo
 2. Open index.html in browser
+
+## AMSfera Website Screenshots
+
+### Homepage
+![AMSfera Homepage](image.png)
+
+### Dashboard
+![AMSfera Dashboard](screenshot-dashboard.png)
