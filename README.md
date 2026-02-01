@@ -20,5 +20,5 @@ This repository contains the source code for AMSfera's official website.
 ### Homepage
 ![AMSfera Homepage](image.png)
 
-### Dashboard
+### About Amsfera Studio
 ![AMSfera Dashboard](screenshot-dashboard.png)
